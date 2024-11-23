@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "./card";
-import Link from "next/link";
 
 export default function projects() {
   return (

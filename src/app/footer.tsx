@@ -6,7 +6,7 @@ export default function Footer() {
     <div id="Footer" className=" h-auto flex justify-center items-center">
       <div className="h-full w-1/2  flex justify-center items-center">
         <div className="w-3/4 h-3/4  flex flex-col justify-between my-10">
-          <h1 className=" font-bold text-3xl mt-3">Let's Talk</h1>
+          <h1 className=" font-bold text-3xl mt-3">{`Let's Talk`}</h1>
           <p className="mb-6">
             Got a project in mind or just want to connect? I’m always open to
             discussing new ideas, collaborations, or opportunities. Feel free to
