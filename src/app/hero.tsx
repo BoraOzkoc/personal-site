@@ -3,8 +3,8 @@ import React from "react";
 
 export default function hero() {
   return (
-    <div className="flex-row flex justify-center mt-10">
-      <div className="w-full h-96 flex flex-col items-end justify-center">
+    <div id="Hero" className="grid grid-cols-5 gap-4 mt-10">
+      <div className="w-full h-96 flex col-span-3  flex-col items-end justify-center">
         <div className=" flex flex-col items-center justify-center w-[80%]">
           <div className="flex w-4/5 justify-start h-20 font-bold text-3xl mb-10">
             <h1>Bora Özkoc | Software Engineer</h1>
@@ -22,17 +22,18 @@ export default function hero() {
           <div>
             <Link
               href={"mailto:boraozkoc@hotmail.com"}
-              className=" btn btn-wide"
+              className="hover:bg-slate-400 btn btn-wide bg-white text-black"
             >
               Contact Me
             </Link>
           </div>
+        
         </div>
       </div>
-      <div className="w-full h-96 items-center pl-20 flex justify-start">
+      <div className="w-full h-96 col-span-2 items-center pl-20 flex justify-start">
         <img
-          className="w-96 h-96"
-          src="https://fastly.picsum.photos/id/157/200/200.jpg?hmac=WcY71o73tg2eJc3TmpgdISkTe-p8ZGn-A3Q3jh2h7T4"
+          className=" rounded-full h-96"
+          src="Icons/ProfilePhoto.jpeg"
           alt=""
         />
       </div>
